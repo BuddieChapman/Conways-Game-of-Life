@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Conway%27s-Game-of-Life\Conway%27s-Game-of-Life\cgol-cell.cpp" />
+    <ClCompile Include="..\..\Conway%27s-Game-of-Life\Conway%27s-Game-of-Life\cgol-grid.cpp" />
+    <ClCompile Include="..\..\Conway%27s-Game-of-Life\Conway%27s-Game-of-Life\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgol-cell.h" />
+    <ClInclude Include="cgol-grid.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
