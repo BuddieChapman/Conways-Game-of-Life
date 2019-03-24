@@ -1,5 +1,4 @@
 #pragma once
-#include <map>
 #include <set>
 #include "cgol-cell.h"
 #include <array>
@@ -15,5 +14,6 @@ namespace cgol
 		void setAlive(cgol::Cell);
 		void setDead(cgol::Cell);
 		bool isAlive(cgol::Cell);
+		void update();
 	};
 }
