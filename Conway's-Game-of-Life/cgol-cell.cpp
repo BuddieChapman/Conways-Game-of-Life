@@ -18,7 +18,11 @@ std::array<cgol::Cell, 8> cgol::Cell::getNeighbors() const
 
 bool cgol::operator<(const cgol::Cell& lhs, const cgol::Cell& rhs)
 {
-	return false;
+	if (lhs.column != rhs.column)
+	{
+		return lhs.column < rhs.column;
+	}
+	return lhs.row < rhs.row;
 }
 
 std::ostream& cgol::operator<<(std::ostream& os, const cgol::Cell& cell)
