@@ -23,6 +23,7 @@
     <ProjectGuid>{81E2073A-8925-4587-B4A3-EDCB1EF23361}</ProjectGuid>
     <RootNamespace>ConwaysGameofLife</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>Conways-Game-of-Life</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,9 +116,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Conway%27s-Game-of-Life\Conway%27s-Game-of-Life\cgol-cell.cpp" />
-    <ClCompile Include="..\..\Conway%27s-Game-of-Life\Conway%27s-Game-of-Life\cgol-grid.cpp" />
-    <ClCompile Include="..\..\Conway%27s-Game-of-Life\Conway%27s-Game-of-Life\main.cpp" />
+    <ClCompile Include="cgol-cell.cpp" />
+    <ClCompile Include="cgol-grid.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cgol-cell.h" />
