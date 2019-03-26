@@ -1,36 +1,46 @@
 #include <iostream>
 #include "cgol-grid.h"
-#include <Windows.h>
+#include <SDL.h>
+#include "sdl-cell-rect.h"
 
-cgol::Grid grid;
-
-void printGrid()
+int main(int argc, char** argv)
 {
-	for (auto i = -10; i < 10; ++i)
+	SDL_Init(SDL_INIT_EVERYTHING);
+	SDL_Window* window = nullptr;
+	SDL_Renderer* renderer = nullptr;
+	SDL_CreateWindowAndRenderer(500, 500, SDL_WINDOW_RESIZABLE, &window, &renderer);
+	SDL_Event e;
+	bool running = true;
+	cgol::Grid grid;
+
+	grid.setAlive({ 10, 10 });
+	grid.setAlive({ 11, 10 });
+	grid.setAlive({ 9, 10 });
+	
+	while (running)
 	{
-		for (auto j = -10; j < 10; ++j)
+		while (SDL_PollEvent(&e))
 		{
-			char c = grid.isAlive({ j, i }) ? 'X' : '.';
-			std::cout << c;
+			if (e.type == SDL_QUIT) running = false;
 		}
-		std::cout << '\n';
-	}
-}
-
-int main()
-{
-	grid.setAlive({ 0, 0 });
-	grid.setAlive({ 1, 0 });
-	grid.setAlive({ -1, 0 });
-
-	while (true)
-	{
 		grid.update();
-		system("clear");
-		printGrid();
-		Sleep(30);
+
+		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+		SDL_RenderClear(renderer);
+
+		SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
+		for (auto cell : grid.getLivingCells())
+		{
+			sdl::CellRect cellRect(cell);
+			SDL_RenderFillRect(renderer, &cellRect.getRect());
+		}
+
+		SDL_RenderPresent(renderer);
+		SDL_Delay(100);
 	}
 
-	system("pause");
+	SDL_DestroyRenderer(renderer);
+	SDL_DestroyWindow(window);
+	SDL_Quit();
 	return 0;
 }

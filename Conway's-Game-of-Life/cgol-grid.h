@@ -15,5 +15,6 @@ namespace cgol
 		void setDead(cgol::Cell);
 		bool isAlive(cgol::Cell);
 		void update();
+		std::set<cgol::Cell> getLivingCells();
 	};
 }

@@ -131,11 +131,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.cpp" />
     <ClCompile Include="cgol-cell.cpp" />
     <ClCompile Include="cgol-grid.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.h" />
     <ClInclude Include="cgol-cell.h" />
     <ClInclude Include="cgol-grid.h" />
   </ItemGroup>

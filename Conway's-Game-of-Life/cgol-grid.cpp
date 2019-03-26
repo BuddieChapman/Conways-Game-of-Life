@@ -55,3 +55,8 @@ void cgol::Grid::update()
 		}
 	}
 }
+
+std::set<cgol::Cell> cgol::Grid::getLivingCells()
+{
+	return livingCells;
+}

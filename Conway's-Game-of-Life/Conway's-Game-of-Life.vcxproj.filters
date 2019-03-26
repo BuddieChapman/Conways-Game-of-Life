@@ -24,12 +24,18 @@
     <ClCompile Include="cgol-cell.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cgol-grid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="cgol-cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
