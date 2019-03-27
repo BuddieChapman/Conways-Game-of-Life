@@ -76,7 +76,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>D:\Programming\Dev-Libraries\SDL2\Visual Studio\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Programming\Dev-Libraries\SDL2\Visual Studio\lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath>D:\Programming\Dev-Libraries\SDL2\Visual Studio\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -131,13 +131,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-event-observable.cpp" />
+    <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-grid-display.cpp" />
     <ClCompile Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.cpp" />
     <ClCompile Include="cgol-cell.cpp" />
     <ClCompile Include="cgol-grid.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-grid-display.h" />
     <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.h" />
+    <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-event-observable.h" />
+    <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-event-observer.h" />
     <ClInclude Include="cgol-cell.h" />
     <ClInclude Include="cgol-grid.h" />
   </ItemGroup>
