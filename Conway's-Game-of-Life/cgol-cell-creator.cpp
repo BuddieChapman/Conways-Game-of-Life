@@ -27,4 +27,13 @@ void cgol::CellCreator::handleEvent(const SDL_Event& event)
 			grid->setAlive({ gridColumn, gridRow });
 		}
 	}
+	else if (event.type == SDL_MOUSEMOTION && SDL_GetKeyboardState(NULL)[SDL_SCANCODE_LCTRL])
+	{
+		float mouseX = event.motion.x + camera->x;
+		float mouseY = event.motion.y + camera->y;
+		int gridColumn = floor(mouseX / sdl::CellRect::CELL_WIDTH);
+		int gridRow = floor(mouseY / sdl::CellRect::CELL_HEIGHT);
+
+		grid->setAlive({ gridColumn, gridRow });
+	}
 }
