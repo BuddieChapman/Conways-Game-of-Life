@@ -15,7 +15,7 @@ namespace cgol
 	public:
 		GridDisplay(cgol::Grid& grid);
 		void render(SDL_Renderer* renderer) const;
-		virtual void handleEvent(SDL_Event& event);
+		virtual void handleEvent(const SDL_Event& event);
 		const SDL_Rect& getCamera() const;
 	};
 }

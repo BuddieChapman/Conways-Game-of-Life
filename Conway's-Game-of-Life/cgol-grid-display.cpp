@@ -20,7 +20,7 @@ void cgol::GridDisplay::render(SDL_Renderer* renderer) const
 	}
 }
 
-void cgol::GridDisplay::handleEvent(SDL_Event& event)
+void cgol::GridDisplay::handleEvent(const SDL_Event& event)
 {
 	if (event.type == SDL_MOUSEBUTTONDOWN && event.button.button == SDL_BUTTON_LEFT)
 	{
