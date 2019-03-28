@@ -4,6 +4,7 @@
 #include "cgol-grid-display.h"
 #include "sdl-event-observable.h"
 #include "cgol-cell-creator.h"
+#include "cgol-time-control.h"
 
 int main(int argc, char** argv)
 {
@@ -16,9 +17,11 @@ int main(int argc, char** argv)
 	cgol::GridDisplay gridDisplay(grid);
 	sdl::EventObservable eventObservable;
 	cgol::CellCreator cellCreator(grid, gridDisplay.getCamera());
+	cgol::TimeControl timeControl;
 
 	eventObservable.subscribe(gridDisplay);
 	eventObservable.subscribe(cellCreator);
+	eventObservable.subscribe(timeControl);
 	/*grid.setAlive({ 10, 10 });
 	grid.setAlive({ 10, 11 });
 	grid.setAlive({ 10, 12 });
@@ -29,9 +32,6 @@ int main(int argc, char** argv)
 	{
 		grid.setAlive({ i, 40 });
 	}
-	
-	int tickRate = 3;
-	int tick = 0;
 
 	while (true)
 	{
@@ -39,10 +39,7 @@ int main(int argc, char** argv)
 		eventObservable.pollEvents();
 
 		// update app
-		++tick;
-		std::cout << grid.getLivingCells().size() << '\n';
-		if(tick % tickRate == 0)
-		grid.update();
+		timeControl.update(grid);
 
 		// render
 		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
