@@ -3,6 +3,7 @@
 #include <SDL.h>
 #include "cgol-grid-display.h"
 #include "sdl-event-observable.h"
+#include "cgol-cell-creator.h"
 
 int main(int argc, char** argv)
 {
@@ -14,8 +15,10 @@ int main(int argc, char** argv)
 	cgol::Grid grid;
 	cgol::GridDisplay gridDisplay(grid);
 	sdl::EventObservable eventObservable;
+	cgol::CellCreator cellCreator(grid, gridDisplay.getCamera());
 
 	eventObservable.subscribe(gridDisplay);
+	eventObservable.subscribe(cellCreator);
 	/*grid.setAlive({ 10, 10 });
 	grid.setAlive({ 10, 11 });
 	grid.setAlive({ 10, 12 });

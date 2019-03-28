@@ -33,6 +33,9 @@
     <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-grid-display.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-cell-creator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cgol-grid.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-grid-display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-cell-creator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
