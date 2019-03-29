@@ -2,8 +2,8 @@ This project uses SDL2. To compile this project, you will need to change the inc
 
 Controls
 =========
-create/delete cell = right click
-mass create cell = left ctrl
-scroll = hold left click and drag
-zoom = mouse wheel
+create/delete cell = right click\
+mass create cell = left ctrl\
+scroll = hold left click and drag\
+zoom = mouse wheel\
 pause/unpause simulation = spacebar
