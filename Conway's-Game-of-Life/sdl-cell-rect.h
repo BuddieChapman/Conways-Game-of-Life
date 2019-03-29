@@ -11,7 +11,7 @@ namespace sdl
 	public:
 		CellRect(cgol::Cell cell);
 		const SDL_Rect& getRect();
-		static const int CELL_WIDTH = 10;
-		static const int CELL_HEIGHT = 10;
+		static const int CELL_WIDTH = 8;
+		static const int CELL_HEIGHT = 8;
 	};
 }

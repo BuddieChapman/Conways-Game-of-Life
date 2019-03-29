@@ -5,10 +5,16 @@
 
 namespace cgol
 {
+	struct Camera
+	{
+		float x, y;
+		float zoom;
+	};
+
 	class GridDisplay : public sdl::EventObserver
 	{
 	private:
-		SDL_Rect camera;
+		cgol::Camera camera;
 		cgol::Grid* grid;
 		const SDL_Color cellColor = { 0, 0, 255, 255 };
 		bool mouseDown;
@@ -16,6 +22,6 @@ namespace cgol
 		GridDisplay(cgol::Grid& grid);
 		void render(SDL_Renderer* renderer) const;
 		virtual void handleEvent(const SDL_Event& event);
-		const SDL_Rect& getCamera() const;
+		const cgol::Camera& getCamera() const;
 	};
 }
