@@ -4,7 +4,7 @@
 cgol::TimeControl::TimeControl()
 {
 	paused = false;
-	tickRate = 100;
+	tickRate = RATE_MEDIUM;
 	lastTick = 0;
 }
 
@@ -12,9 +12,32 @@ void cgol::TimeControl::handleEvent(const SDL_Event& event)
 {
 	if (event.type == SDL_KEYDOWN)
 	{
-		switch (event.key.keysym.sym)
+		auto keyPressed = event.key.keysym.sym;
+		if(keyPressed == SDLK_SPACE) 
 		{
-		case SDLK_SPACE: paused = !paused; break;
+			paused = !paused;
+		}
+		else if (keyPressed == SDLK_RIGHT)
+		{
+			if (tickRate == RATE_SLOW)
+			{
+				tickRate = RATE_MEDIUM;
+			}
+			else if (tickRate == RATE_MEDIUM)
+			{
+				tickRate = RATE_FAST;
+			}
+		}
+		else if(keyPressed == SDLK_LEFT)
+		{
+			if (tickRate == RATE_FAST)
+			{
+				tickRate = RATE_MEDIUM;
+			}
+			else if (tickRate == RATE_MEDIUM)
+			{
+				tickRate = RATE_SLOW;
+			}
 		}
 	}
 }
