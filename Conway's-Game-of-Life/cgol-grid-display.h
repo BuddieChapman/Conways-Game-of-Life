@@ -15,7 +15,7 @@ namespace cgol
 	{
 	private:
 		cgol::Camera camera;
-		cgol::Grid* grid;
+		const cgol::Grid* grid;
 		const SDL_Color cellColor = { 0, 0, 255, 255 };
 		bool mouseDown;
 	public:

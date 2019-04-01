@@ -1,4 +1,3 @@
-#pragma once
 #include "cgol-cell-creator.h"
 #include "sdl-cell-rect.h"
 #include <math.h>

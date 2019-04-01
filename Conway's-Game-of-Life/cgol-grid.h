@@ -13,8 +13,8 @@ namespace cgol
 		Grid();
 		void setAlive(cgol::Cell);
 		void setDead(cgol::Cell);
-		bool isAlive(cgol::Cell);
+		bool isAlive(cgol::Cell) const;
 		void update();
-		std::set<cgol::Cell> getLivingCells();
+		const std::set<cgol::Cell>& getLivingCells() const;
 	};
 }

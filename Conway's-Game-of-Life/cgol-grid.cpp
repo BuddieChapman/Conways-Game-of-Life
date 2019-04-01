@@ -16,7 +16,7 @@ void cgol::Grid::setDead(cgol::Cell cell)
 	livingCells.erase(cell);
 }
 
-bool cgol::Grid::isAlive(cgol::Cell cell)
+bool cgol::Grid::isAlive(cgol::Cell cell) const
 {
 	auto it = livingCells.find(cell);
 	if (it == livingCells.end())
@@ -56,7 +56,7 @@ void cgol::Grid::update()
 	}
 }
 
-std::set<cgol::Cell> cgol::Grid::getLivingCells()
+const std::set<cgol::Cell>& cgol::Grid::getLivingCells() const
 {
 	return livingCells;
 }
