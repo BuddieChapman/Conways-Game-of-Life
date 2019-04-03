@@ -134,6 +134,7 @@
     <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-cell-creator.cpp" />
     <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-event-observable.cpp" />
     <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-grid-display.cpp" />
+    <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-menu.cpp" />
     <ClCompile Include="..\Conway%27s-Game-of-Life\cgol-time-control.cpp" />
     <ClCompile Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.cpp" />
     <ClCompile Include="cgol-cell.cpp" />
@@ -143,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-cell-creator.h" />
     <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-grid-display.h" />
+    <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-menu.h" />
     <ClInclude Include="..\Conway%27s-Game-of-Life\cgol-time-control.h" />
     <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-cell-rect.h" />
     <ClInclude Include="..\Conway%27s-Game-of-Life\sdl-event-observable.h" />
