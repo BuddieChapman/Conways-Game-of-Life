@@ -8,6 +8,10 @@
 #include "cgol-time-control.h"
 #include "cgol-menu.h"
 
+#ifndef _MSVC_
+#undef main
+#endif
+
 int main(int argc, char** argv)
 {
 	SDL_Init(SDL_INIT_EVERYTHING);

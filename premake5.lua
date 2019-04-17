@@ -29,6 +29,7 @@ workspace "game-of-life"
 		filter "action:vs*"
 			systemversion "latest"
 			includedirs (SDLdir .. "msvc/include")
+			defines "_MSVC_"
 			
 		filter {"action:vs*", "platforms:x86"}
 			libdirs (SDLdir .. "msvc/lib/x86")
