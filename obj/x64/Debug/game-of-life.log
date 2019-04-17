@@ -1,0 +1,21 @@
+﻿  cgol-cell-creator.cpp
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-cell-creator.cpp(17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-cell-creator.cpp(18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-cell-creator.cpp(33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-cell-creator.cpp(34): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  cgol-cell.cpp
+  cgol-event-observable.cpp
+  cgol-grid-display.cpp
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-grid-display.cpp(18): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-grid-display.cpp(19): warning C4244: '-=': conversion from 'const float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-grid-display.cpp(20): warning C4244: '*=': conversion from 'const float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-grid-display.cpp(21): warning C4244: '*=': conversion from 'const float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-grid-display.cpp(22): warning C4244: '*=': conversion from 'const float' to 'int', possible loss of data
+c:\users\iplay\desktop\conways-game-of-life\src\cgol-grid-display.cpp(23): warning C4244: '*=': conversion from 'const float' to 'int', possible loss of data
+  cgol-grid.cpp
+  cgol-menu.cpp
+  cgol-time-control.cpp
+  main.cpp
+  sdl-cell-rect.cpp
+  Generating Code...
+  game-of-life.vcxproj -> C:\Users\iplay\Desktop\Conways-game-of-life\bin\x86_64\Debug\game-of-life.exe
