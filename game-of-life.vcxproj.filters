@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2">
+      <UniqueIdentifier>{F7E96DC1-639F-E6B6-EC93-E08D5848DDBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw">
+      <UniqueIdentifier>{28A17BDB-94B7-7971-DD2E-059349844AF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw\i686-w64-mingw32">
+      <UniqueIdentifier>{66142C44-5250-2FAE-BB62-47A5A7BDD7C8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw\i686-w64-mingw32\include">
+      <UniqueIdentifier>{D94122CD-C5A9-E89A-2E15-FDB01A9CFF86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2">
+      <UniqueIdentifier>{DD7F63EF-49BB-C3B2-52B0-4042BE6A48E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw\x86_64-w64-mingw32">
+      <UniqueIdentifier>{A8770731-945E-C928-3DAF-2F462975428F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include">
+      <UniqueIdentifier>{1BC7C58C-07DA-C5E5-B0C3-A2D29CB56233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2">
+      <UniqueIdentifier>{5F9EF6C4-CB64-53E1-14C0-E14380C5C145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\msvc">
+      <UniqueIdentifier>{1FFA4173-0BF3-60C5-3425-464A207D40D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\SDL2\msvc\include">
+      <UniqueIdentifier>{92D03AC0-7EF5-8940-A740-6FD093C4885E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cgol-cell-creator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cgol-cell.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cgol-grid-display.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cgol-grid.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cgol-menu.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cgol-time-control.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdl-cell-rect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdl-event-observable.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdl-event-observer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_assert.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_atomic.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_audio.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_bits.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_blendmode.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_clipboard.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_config.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_cpuinfo.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_egl.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_endian.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_error.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_events.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_filesystem.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_gamecontroller.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_gesture.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_haptic.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_hints.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_joystick.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_keyboard.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_keycode.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_loadso.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_log.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_main.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_messagebox.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_mouse.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_mutex.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_name.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengl.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengl_glext.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengles.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengles2.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengles2_gl2.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengles2_gl2ext.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengles2_gl2platform.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_opengles2_khrplatform.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_pixels.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_platform.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_power.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_quit.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_rect.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_render.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_revision.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_rwops.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_scancode.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_sensor.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_shape.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_stdinc.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_surface.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_system.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_syswm.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_assert.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_common.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_compare.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_crc32.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_font.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_fuzzer.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_harness.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_images.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_log.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_md5.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_memory.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_test_random.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_thread.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_timer.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_touch.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_ttf.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_types.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_version.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_video.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\SDL_vulkan.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\begin_code.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2\close_code.h">
+      <Filter>vendor\SDL2\mingw\i686-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_assert.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_atomic.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_audio.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_bits.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_blendmode.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_clipboard.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_config.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_cpuinfo.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_egl.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_endian.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_error.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_events.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_filesystem.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_gamecontroller.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_gesture.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_haptic.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_hints.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_joystick.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_keyboard.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_keycode.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_loadso.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_log.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_main.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_messagebox.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_mouse.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_mutex.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_name.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengl.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengl_glext.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengles.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengles2.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengles2_gl2.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengles2_gl2ext.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengles2_gl2platform.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_opengles2_khrplatform.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_pixels.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_platform.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_power.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_quit.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_rect.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_render.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_revision.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_rwops.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_scancode.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_sensor.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_shape.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_stdinc.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_surface.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_system.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_syswm.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_assert.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_common.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_compare.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_crc32.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_font.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_fuzzer.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_harness.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_images.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_log.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_md5.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_memory.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_test_random.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_thread.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_timer.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_touch.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_ttf.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_types.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_version.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_video.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\SDL_vulkan.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\begin_code.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2\close_code.h">
+      <Filter>vendor\SDL2\mingw\x86_64-w64-mingw32\include\SDL2</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_assert.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_atomic.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_audio.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_bits.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_blendmode.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_clipboard.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_android.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_iphoneos.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_macosx.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_minimal.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_pandora.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_psp.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_windows.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_winrt.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_config_wiz.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_copying.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_cpuinfo.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_egl.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_endian.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_error.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_events.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_filesystem.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_gamecontroller.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_gesture.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_haptic.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_hints.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_joystick.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_keyboard.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_keycode.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_loadso.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_log.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_main.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_messagebox.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_mouse.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_mutex.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_name.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengl.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengl_glext.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengles.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengles2.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengles2_gl2.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengles2_gl2ext.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengles2_gl2platform.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_opengles2_khrplatform.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_pixels.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_platform.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_power.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_quit.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_rect.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_render.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_revision.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_rwops.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_scancode.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_sensor.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_shape.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_stdinc.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_surface.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_system.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_syswm.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_assert.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_common.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_compare.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_crc32.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_font.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_fuzzer.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_harness.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_images.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_log.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_md5.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_memory.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_test_random.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_thread.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_timer.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_touch.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_ttf.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_types.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_version.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_video.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\SDL_vulkan.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\begin_code.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\SDL2\msvc\include\close_code.h">
+      <Filter>vendor\SDL2\msvc\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cgol-cell-creator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cgol-cell.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cgol-event-observable.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cgol-grid-display.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cgol-grid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cgol-menu.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cgol-time-control.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sdl-cell-rect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
